@@ -14,6 +14,7 @@
 		A73D41DC22A2514A00752ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73D41DA22A2514A00752ADB /* LaunchScreen.storyboard */; };
 		A73D41E722A2514A00752ADB /* ContentViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73D41E622A2514A00752ADB /* ContentViewTestTests.swift */; };
 		A73D41F222A2514A00752ADB /* ContentViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73D41F122A2514A00752ADB /* ContentViewTestUITests.swift */; };
+		A73D420022A252DA00752ADB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73D41FF22A252DA00752ADB /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A73D41ED22A2514A00752ADB /* ContentViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContentViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73D41F122A2514A00752ADB /* ContentViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTestUITests.swift; sourceTree = "<group>"; };
 		A73D41F322A2514A00752ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73D41FF22A252DA00752ADB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A73D41D122A2514700752ADB /* AppDelegate.swift */,
 				A73D41D322A2514700752ADB /* ViewController.swift */,
+				A73D41FF22A252DA00752ADB /* CollectionViewCell.swift */,
 				A73D41D522A2514700752ADB /* Main.storyboard */,
 				A73D41D822A2514A00752ADB /* Assets.xcassets */,
 				A73D41DA22A2514A00752ADB /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				A73D41D422A2514700752ADB /* ViewController.swift in Sources */,
 				A73D41D222A2514700752ADB /* AppDelegate.swift in Sources */,
+				A73D420022A252DA00752ADB /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
